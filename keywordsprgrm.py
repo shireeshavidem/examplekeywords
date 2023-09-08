@@ -33,3 +33,11 @@ elif x > 50:
     print('x is greater than 50 but less than 100')
 else:
     print('x is less than 50')
+
+
+#program using break condition
+numbers = [10,20,30,60,190,66] 
+for i in numbers:
+    if i > 100:
+        break
+    print('current number',i)  
